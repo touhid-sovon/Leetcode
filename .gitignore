@@ -1,5 +1,6 @@
+.gitignore
 sample.txt
 python_interview.py
+tests.py
 .idea
 venv
-.gitignore

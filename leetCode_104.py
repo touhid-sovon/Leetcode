@@ -75,8 +75,16 @@ class Solution:
             return 0
         return max(maxDepth(self.root.left),maxDepth(self.root.right)) + 1
     '''
+left_sub = TreeNode(2)
+left_sub.left = TreeNode(5,None,None)
+right_sub = TreeNode(3)
+right_sub.left = TreeNode(4,None,None)
+right_sub.left.left = TreeNode(8,None,None)
+right_sub.right = TreeNode(7,None,None)
+root = TreeNode(1, left_sub, right_sub)
+
 sol = Solution()
-print(sol.maxDepth(left_sub))
+print(sol.maxDepth(root))
 
 # node = root
 #
