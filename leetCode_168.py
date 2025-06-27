@@ -17,4 +17,4 @@ class Solution:
 
 sol = Solution()
 
-print(sol.convertToTitle(943566))
+print(sol.convertToTitle(53))
